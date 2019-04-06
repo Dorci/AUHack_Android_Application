@@ -25,7 +25,8 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ZITCOM_LOGO_WHITE" />
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/logo" />
 
     <ScrollView
         android:id="@+id/login_form"
