@@ -12,4 +12,8 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="gymButtonText">Gym</string>
+    <string name="chatButtonText">Chat</string>
+    <string name="canteenButtonText">Canteen</string>
+    <string name="gameButtonText">gameButtonText</string>
 </resources>
