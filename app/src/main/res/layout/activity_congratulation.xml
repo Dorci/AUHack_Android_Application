@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006699"
+    tools:context=".CongratulationActivity">
+
+    <TextView
+        android:id="@+id/winLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:text="@string/conratulationsTextLabel"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/pointsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/winLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="#FFFFFF"
+        android:padding="15dp"
+        android:text="@string/gotPointLabel"
+        android:textSize="18sp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/goBackButton"
+        android:layout_width="140dp"
+        android:layout_height="69dp"
+        android:layout_below="@+id/pointsLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:text="@string/GoBackButton" />
+</RelativeLayout>

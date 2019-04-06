@@ -10,49 +10,49 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="fill_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <Button
                 android:id="@+id/gym"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/barbell"
-                android:text="@string/gymButtonText"
-                android:layout_gravity="center"/>
+                android:text="@string/gymButtonText" />
 
             <Button
                 android:id="@+id/canteen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/barbell"
-                android:text="@string/canteenButtonText"
-                android:layout_gravity="center"/>
+                android:text="@string/canteenButtonText" />
 
             <Button
                 android:id="@+id/chat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/barbell"
-                android:text="@string/chatButtonText"
-                android:layout_gravity="center"/>
+                android:text="@string/chatButtonText" />
 
             <Button
-                android:id="@+id/game"
+                android:id="@+id/chat4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/barbell"
-                android:text="@string/gameButtonText"
-                android:layout_gravity="center"/>
+                android:text="@string/chatButtonText" />
+
         </LinearLayout>
 
     </ScrollView>
