@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "737030829059",
+    "firebase_url": "https://auhack-d74ca.firebaseio.com",
+    "project_id": "auhack-d74ca",
+    "storage_bucket": "auhack-d74ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737030829059:android:9a9561bf861d1cad",
+        "android_client_info": {
+          "package_name": "com.example.hackathonapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9YhI4re90dK0AlmQbqvjxwhayA-bIa8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737030829059-4jl99pp92ou4031ujr191qgp0jt4v28a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
