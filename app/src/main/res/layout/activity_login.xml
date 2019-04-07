@@ -48,12 +48,14 @@
                 <AutoCompleteTextView
                     android:id="@+id/email"
                     style="@style/LogInUnderLine"
+                    android:textColor="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/prompt_email"
                     android:inputType="text"
                     android:maxLines="1"
                     android:singleLine="true"
+                    android:textColorLink="@color/white"
                     android:theme="@style/LogInUnderLine" />
 
             </android.support.design.widget.TextInputLayout>
@@ -65,6 +67,7 @@
 
                 <EditText
                     android:id="@+id/password"
+                    android:textColor="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Password"
@@ -73,7 +76,8 @@
                     android:imeOptions="actionUnspecified"
                     android:inputType="textPassword"
                     android:maxLines="1"
-                    android:singleLine="true" />
+                    android:singleLine="true"
+                    android:textColorLink="#FFFFFF" />
 
             </android.support.design.widget.TextInputLayout>
             <LinearLayout
