@@ -402,7 +402,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         }
     }
 
-    private void createAccount(String email, String password){
+    private void createAccount(String email, String password) {
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -415,8 +415,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "createUserWithEmail:failure", task.getException());
-                            Toast.makeText(LoginActivity.this, "Authentication failed.",
-                                    Toast.LENGTH_SHORT).show();
+                            Toast.makeText(LoginActivity.this, "Authentication failed.", Toast.LENGTH_SHORT).show();
 //                            updateUI(null);
                         }
 

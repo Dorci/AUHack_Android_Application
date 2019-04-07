@@ -12,6 +12,7 @@ import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -83,6 +84,8 @@ public class findingGameHome extends AppCompatActivity {
         if (codeAccepted(inputText.getText().toString())) {
             Intent intent = new Intent(findingGameHome.this, CongratulationActivity.class);
             startActivity(intent);
+        } else {
+            Toast.makeText(findingGameHome.this, "Wrong code.", Toast.LENGTH_SHORT).show();
         }
     }
 
