@@ -86,6 +86,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@color/white"
+                    android:elevation="0dp"
                     android:text="@string/LogInButtonText"
                     android:textColor="@color/backgroundColor" />
 

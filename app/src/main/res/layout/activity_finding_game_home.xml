@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="40dp"
         android:text="@string/findYourFriendHeader"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
@@ -41,9 +41,9 @@
         android:layout_height="216dp"
         android:layout_below="@+id/riddle"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        app:srcCompat="@drawable/roxana"
-        android:contentDescription="TODO" />
+        android:layout_marginTop="25dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/roxana" />
 
     <AutoCompleteTextView
         android:id="@+id/inputText"
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/emoji"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="25dp"
         android:layout_marginRight="50dp"
         android:hint="@string/writeTheCodeHere"
         android:textColorHint="@color/white"
@@ -64,6 +64,7 @@
         android:layout_below="@+id/inputText"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:onClick="okButtonClicked"
         android:text="@string/okSendCodeButton" />
 
 </RelativeLayout>
